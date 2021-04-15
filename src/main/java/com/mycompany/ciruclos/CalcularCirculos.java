@@ -36,7 +36,7 @@ public class CalcularCirculos {
         JOptionPane.showMessageDialog( null, salida );
         circulo.establecerX( 35 );
         circulo.establecerY( 20 );
-        System.exit( 0 );
+        //System.exit( 0 );
     }
     
 }
