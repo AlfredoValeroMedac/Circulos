@@ -72,7 +72,10 @@ public class Circulitos {
     {
         return Math.PI * radio * radio;
     }
-
+    public double obtenerArea2()
+    {
+        return Math.PI * radio * radio;
+    }
     @Override
     public String toString()
     {

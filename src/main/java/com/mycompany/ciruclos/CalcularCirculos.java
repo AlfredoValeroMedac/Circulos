@@ -25,6 +25,9 @@ public class CalcularCirculos {
         circulo.establecerX( 35 );
         circulo.establecerY( 20 );
         circulo.establecerRadio( 4.25 );
+        circulo.establecerX( 35 );
+        circulo.establecerY( 20 );
+        circulo.establecerRadio( 4.25 );
         salida += "\n\nLa nueva ubicación y el radio del círculo son\n" +
         circulo.toString();
         DecimalFormat dosDigitos = new DecimalFormat( "0.00" );
@@ -34,8 +37,6 @@ public class CalcularCirculos {
         dosDigitos.format( circulo.obtenerCircunferencia() );
         salida += "\nEl área es " + dosDigitos.format( circulo.obtenerArea() );
         JOptionPane.showMessageDialog( null, salida );
-        circulo.establecerX( 35 );
-        circulo.establecerY( 20 );
         //System.exit( 0 );
     }
     
