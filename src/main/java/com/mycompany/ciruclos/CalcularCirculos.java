@@ -34,6 +34,8 @@ public class CalcularCirculos {
         dosDigitos.format( circulo.obtenerCircunferencia() );
         salida += "\nEl área es " + dosDigitos.format( circulo.obtenerArea() );
         JOptionPane.showMessageDialog( null, salida );
+        circulo.establecerX( 35 );
+        circulo.establecerY( 20 );
         System.exit( 0 );
     }
     
