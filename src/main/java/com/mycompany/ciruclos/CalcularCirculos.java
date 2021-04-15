@@ -19,7 +19,7 @@ public class CalcularCirculos {
      */
     public static void main(String[] args) {
  Circulitos circulo = new Circulitos( 37, 43, 2.5 );
-        String salida = "La coordenada X es " + circulo.obtenerX() +
+        String salida = "La coordenada X es: " + circulo.obtenerX() +
         "\nLa coordenada Y es " + circulo.obtenerY() +
         "\nEl radio es " + circulo.obtenerRadio();
         circulo.establecerX( 35 );
